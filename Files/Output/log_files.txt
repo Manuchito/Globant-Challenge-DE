@@ -1,0 +1,5 @@
+file_name|size|http_code|datetime|http_desc 
+departments copy.csv|189|400|vie. 26/04/2024|400 : Archivo con el nombre y extension inadecuada 
+departments.csv|189|200|vie. 26/04/2024|200 : Archivo CSV "departments.csv" subido. Datos actualizados en la base de datos correctamente 
+hired_employees.csv|92933|200|vie. 26/04/2024|200 : Archivo CSV "hired_employees.csv" subido. Datos actualizados en la base de datos correctamente 
+jobs.csv|4419|200|vie. 26/04/2024|200 : Archivo CSV "jobs.csv" subido. Datos actualizados en la base de datos correctamente 
