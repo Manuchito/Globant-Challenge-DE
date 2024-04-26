@@ -1,15 +1,9 @@
-FROM python:3.9-slim
+FROM python:3.9
 
 WORKDIR /app
 
-COPY requirements.txt ./
-COPY main.py ./
-COPY database_globant.py ./
-COPY Files ./Files
-COPY automated_ing.bat ./
+COPY Data/ Files/ Script/ requirements.txt README.md start.bat ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5000
-
-CMD ["sh", "-c", "python main.py && ./automated_ing.bat"]
+CMD ["start.bat"]
